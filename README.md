@@ -2,7 +2,7 @@
 
 Hey there! 👋 Welcome to this awesome SQL RAG chatbot project! It's a super cool tool that lets you chat with your SQL databases through Telegram using natural language. Whether you're typing, sending voice messages, or even sharing images, this bot's got you covered! 
 
-![SQL RAG Architecture](![Image](https://github.com/user-attachments/assets/322f27b0-0890-4888-bcb8-30e814ba4909))
+![SQL RAG Architecture](https://github.com/AtharshKrishnamoorthy/SQL-RAG-Chatbot/blob/main/SQL%20RAG%20Architecture%20Final.png)
 
 ## ✨ What's Cool About It?
 
