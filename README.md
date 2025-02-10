@@ -11,10 +11,10 @@ Welcome to this awesome SQL RAG chatbot project! It's a super cool tool that let
   - ⌨️ Type your questions
   - 🖼️ Send images with text (it'll read them!)
   - 🎤 Send voice messages
-- 🧠 **Smart Memory**: Remembers your conversation for better follow-ups
-- 🎯 **RAG Pipeline**: Uses fancy vector magic for accurate answers
+- 🧠 **Smart Memory**: Remembers your conversation for better follow-ups. Maintains  a session history for each user.
+- 🎯 **RAG Pipeline**: Utilizes RAG Architecture to retrieve the relevant info from the Vector DB and answer.
 - 📱 **Easy Telegram Access**: Chat with your database like you're texting a friend
-- 📊 **Performance Tracking**: Keeps an eye on how things are running with Opik
+- 📊 **Performance Tracking**: You can track the Logs and traces of the chatbot through opik. 
 
 ## 🛠️ Tech Stack
 
@@ -27,13 +27,13 @@ Welcome to this awesome SQL RAG chatbot project! It's a super cool tool that let
 - 🧠 Groq API (LLM)
 
 ### Important Libraries
-- `langchain-groq`: For the smart AI bits
-- `langchain`: For RAG and database operations
+- `langchain-groq`: For utilizing Groq API Providers from langchain integrations for utilizing open sourced LLMs.
+- `langchain`: For orchestrating the RAG application. 
 - `telegram`: To make it all chat-friendly
-- `speech_recognition`: For voice message magic
-- `FAISS`: For finding similar stuff super fast
-- `HuggingFace Embeddings`: For understanding text better
-- `dotenv`: Keeping secrets secret
+- `speech_recognition`: For recording audio through our microphone to make use of the voice feature. 
+- `FAISS`: Local Vector DB for storing the SQL data Embeddings.
+- 'langchain-huggingface`: Making use of the huggingface Embedding models with pangchain integration to convert the doc data to Embeddings. 
+- `dotenv`: Helps to load all the env Variables. 
 
 ## 🏗️ How It Works
 
@@ -42,7 +42,7 @@ The bot has two main parts:
 ### 🎯 Pipeline 1 - SQL Magic
 1. Gets your message
 2. Processes it with LangChain
-3. Creates SQL using Groq's AI
+3. Creates SQL Query
 4. Runs the query on your database
 5. Gets your data
 
@@ -148,4 +148,4 @@ SQL-RAG-Chatbot/
 
 ---
 
-💡 **Pro Tip**: This bot works with ANY MySQL database! Just update the connection URL in `conn.py`, and you're good to go. Chat with your data through Telegram, no matter what database you're using! 🚀
+💡 **Pro Tip**: This bot works with ANY  database be it MYSQL , Postgress! Just update the connection URL in `conn.py`, and you're good to go. Chat with your data through Telegram, no matter what database you're using! 🚀
