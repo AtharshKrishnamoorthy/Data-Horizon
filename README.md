@@ -1,6 +1,6 @@
-# 🤖 SQL RAG Chatbot
+# 🤖 Data Horizon
 
-Welcome to this awesome SQL RAG chatbot project! It's a super cool tool that lets you chat with your SQL databases through Telegram using natural language. Whether you're typing, sending voice messages, or even sharing images, this bot's got you covered! 
+Welcome to this Data Horizon! It's a super cool tool that lets you chat with your SQL databases through Telegram using natural language. Whether you're typing, sending voice messages, or even sharing images, this bot's got you covered! 
 
 ![SQL RAG Architecture](https://github.com/AtharshKrishnamoorthy/SQL-RAG-Chatbot/blob/main/SQL%20RAG%20Architecture%20Final.png)
 
