@@ -18,15 +18,12 @@ Welcome to this Data Horizon! It's a super cool tool that lets you chat with you
 
 ## Some Screenshots of Data Horizon's action 
 
-![Image](https://github.com/user-attachments/assets/05439806-cd0e-4d8a-93c7-31b5e689764c)
-
 ![Image](https://github.com/user-attachments/assets/13db5d74-ca2b-49aa-b07d-a59a52c180e7)
 
 ![Image](https://github.com/user-attachments/assets/1e064504-14ba-41da-b0be-7d73f198a073)
 
 ![Image](https://github.com/user-attachments/assets/cf6c00c4-b470-41d5-bed6-3e1235ae453c)
 
-![Image](https://github.com/user-attachments/assets/0ca3157f-50e8-48cb-b6ba-40a04b26ef23)
 
 
 ## 🛠️ Tech Stack
